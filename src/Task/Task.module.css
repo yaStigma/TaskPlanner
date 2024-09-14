@@ -1,0 +1,42 @@
+.checkbox {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.container {
+  padding: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border: 1px solid #630c6d;
+  border-radius: 10px;
+}
+.task {
+  padding-left: 5px;
+  width: 100%;
+}
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #8d1c2b;
+}
+
+.close:hover {
+  background-color: #e2e5e8;
+}
+
+.close:active {
+  background-color: #bdbdbd;
+}
