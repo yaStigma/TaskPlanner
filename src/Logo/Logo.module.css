@@ -1,0 +1,28 @@
+.container {
+  width: 212px;
+  height: 51px;
+  padding: 5px 10px 5px 10px;
+  gap: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #605c5c;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.text {
+  font-size: 19.66px;
+  font-weight: 700;
+  line-height: 31.94px;
+  text-align: left;
+}
+.aksent {
+  color: #ffcb12;
+}
