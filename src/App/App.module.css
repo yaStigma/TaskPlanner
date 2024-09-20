@@ -1,8 +1,17 @@
 .layout {
+  display: flex;
+  justify-items: center;
+  gap: 16px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.sidebar {
   display: grid;
   justify-items: center;
   gap: 16px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 16px;
+}
+.content {
+  width: 1140px;
+  height: auto;
 }
