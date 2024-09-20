@@ -1,0 +1,39 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  width: 158px;
+  height: 39px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+}
+
+.btn.isSelected {
+  background-color: #000000;
+  border: 0px;
+  font-size: 18px;
+  color: #ffcb12;
+}
+
+.btn:hover {
+  background-color: #000000;
+  border: 0px;
+  font-size: 18px;
+  color: #ffcb12;
+}
+
+.btn:active {
+  background-color: #000000;
+  border: 0px;
+  font-size: 18px;
+  color: #ffcb12;
+}

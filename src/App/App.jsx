@@ -1,14 +1,13 @@
 import css from './App.module.css'
-import TaskList from '../TaskList/TaskList'
-import Logo from '../Logo/logo'
+import Logo from '../components/Logo/Logo'
+import Navigation from '../components/Navigation/Navigation'
 export default function App() {
   
   return (
     <>
       <main className={css.layout}>
-  Planer
       <Logo/>
-      <TaskList/>
+      <Navigation/>
          
       </main>
       </>
