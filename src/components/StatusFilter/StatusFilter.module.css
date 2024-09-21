@@ -1,0 +1,18 @@
+.container {
+  width: 50%;
+  height: auto;
+  padding: 4px 4px;
+  border-radius: 8px;
+  background-color: #424141;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+  color: #ffffff;
+}
