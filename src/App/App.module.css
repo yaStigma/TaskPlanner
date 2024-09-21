@@ -7,11 +7,18 @@
   padding: 16px;
 }
 .sidebar {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   gap: 16px;
 }
 .content {
   width: 1140px;
   height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
 }
